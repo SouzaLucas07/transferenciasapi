@@ -1,4 +1,4 @@
-package com.souzadev.transferenciasapi.domain.expection;
+package com.souzadev.transferenciasapi.domain.exception;
 
 public class UsuarioNaoEncontradoException extends RuntimeException {
 
