@@ -60,5 +60,5 @@ API REST para gerenciamento de transferências financeiras entre usuários.
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SouzaLucas07/transferencias-api.git
-cd transferencias-api
+git clone https://github.com/SouzaLucas07/transferenciasapi.git
+cd transferenciasapi
