@@ -1,6 +1,16 @@
-# 🚀 API de Transferências
+# 🚀 API de Transferências Financeiras
+
+![Java](https://img.shields.io/badge/Java-21-blue.svg)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.5-brightgreen.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)
+![Maven](https://img.shields.io/badge/Maven-3.8-red.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/SouzaLucas07/transferenciasapi)
+![GitHub repo size](https://img.shields.io/github/repo-size/SouzaLucas07/transferenciasapi)
 
 API REST para gerenciamento de transferências financeiras entre usuários.
+
+---
 
 ## 📋 Índice
 
@@ -10,9 +20,8 @@ API REST para gerenciamento de transferências financeiras entre usuários.
 - [Configuração](#configuração)
 - [Executando o projeto](#executando-o-projeto)
 - [Endpoints](#endpoints)
-- [Estrutura do Projeto](#estrutura-do-projeto)
 - [Regras de Negócio](#regras-de-negócio)
-- [Testes](#testes)
+- [Como Contribuir](#como-contribuir)
 - [Autor](#autor)
 
 ---
@@ -25,10 +34,10 @@ API REST para gerenciamento de transferências financeiras entre usuários.
 | Spring Boot | 3.3.5 | Framework principal |
 | Spring Data JPA | - | Persistência de dados |
 | Spring Cloud OpenFeign | 2023.0.3 | Clientes HTTP declarativos |
-| PostgreSQL | - | Banco de dados relacional |
+| PostgreSQL | 15+ | Banco de dados relacional |
 | Lombok | 1.18.36 | Redução de boilerplate |
 | SpringDoc OpenAPI | 2.6.0 | Documentação Swagger |
-| Maven | - | Gerenciador de dependências |
+| Maven | 3.8+ | Gerenciador de dependências |
 
 ---
 
