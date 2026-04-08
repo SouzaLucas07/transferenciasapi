@@ -79,6 +79,8 @@ public class TransferenciaService {
             if (!autorizada) {
                 throw new RequisicaoInvalidaException("Transferência não autorizada pelo serviço externo.");
             }
+        } catch (RequisicaoInvalidaException e) {
+            throw e;  // Relança a exceção de autorização negada
         } catch (Exception e) {
             throw new RequisicaoInvalidaException("Serviço de autorização indisponível no momento.");
         }
